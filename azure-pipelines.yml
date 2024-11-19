@@ -9,7 +9,8 @@ trigger:
     include:
     - main
 
-pool: MyPool
+pool:
+  name: MyPool
   vmImage: ubuntu-latest
 
 steps:
